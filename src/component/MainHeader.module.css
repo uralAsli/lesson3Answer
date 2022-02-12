@@ -1,0 +1,37 @@
+.header {
+    width: 100%;
+    height: 5rem;
+}
+.header nav {
+    height: 100%;
+}
+
+.header ul {
+    height: 100%;
+    list-style: none;
+    display: flex;
+    padding: 10;
+    margin: 10;
+    align-items: center;
+    justify-content: space-around;
+    background-color: royalblue;
+}
+
+.header li {
+    margin: 0 1rem;
+    width: 4rem;
+}
+
+.header a {
+    color: whitesmoke;
+    width: 4rem;
+    text-decoration: none;
+    font-size: x-large;
+}
+
+.header a:hover,
+.header a:active,
+.header a.active {
+    background-color: black;
+    padding: 1;
+}
